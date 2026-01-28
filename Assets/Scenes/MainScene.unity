@@ -2403,11 +2403,96 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5682245206119500960, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682245206119500960, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+      propertyPath: m_fontColorGradient.topLeft.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682245206119500960, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+      propertyPath: m_fontColorGradient.topLeft.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682245206119500960, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+      propertyPath: m_fontColorGradient.topLeft.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682245206119500960, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+      propertyPath: m_fontColorGradient.topRight.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682245206119500960, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+      propertyPath: m_fontColorGradient.topRight.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682245206119500960, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+      propertyPath: m_fontColorGradient.topRight.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682245206119500960, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+      propertyPath: m_fontColorGradient.bottomLeft.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682245206119500960, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+      propertyPath: m_fontColorGradient.bottomLeft.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682245206119500960, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+      propertyPath: m_fontColorGradient.bottomLeft.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682245206119500960, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+      propertyPath: m_fontColorGradient.bottomRight.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682245206119500960, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+      propertyPath: m_fontColorGradient.bottomRight.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682245206119500960, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+      propertyPath: m_fontColorGradient.bottomRight.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9023098335431804346, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 441310419598623622, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6536804453057983556}
   m_SourcePrefab: {fileID: 100100000, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+--- !u!1 &6536804453057983555 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 441310419598623622, guid: ca298ff59553afe46bf11151271f4ab3, type: 3}
+  m_PrefabInstance: {fileID: 6536804453057983554}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &6536804453057983556
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6536804453057983555}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: dee704590962cae4a90d51f6575b4f91, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: dee704590962cae4a90d51f6575b4f91, type: 2}
+  - {fileID: 7400000, guid: f5a443bbba25da04cb5586cdcd1b9c92, type: 2}
+  - {fileID: 7400000, guid: d726de59e00341847b2411b9cdfc7336, type: 2}
+  - {fileID: 7400000, guid: 34fea713cf4489a468dd821aedc4b5ac, type: 2}
+  - {fileID: 7400000, guid: 1c671f5be8f81dc479faf4e2f86dcb11, type: 2}
+  - {fileID: 7400000, guid: c49c6f6912000ef4e9810f69ca4b3dba, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &7734174953032114084
 PrefabInstance:
   m_ObjectHideFlags: 0
